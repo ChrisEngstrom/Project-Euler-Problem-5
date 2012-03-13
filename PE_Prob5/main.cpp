@@ -27,7 +27,7 @@ int main() {
     int highestFactor = 20,
         solution = -1;
 
-    for(int i = highestFactor; !numberFound ; i++)
+    for(int i = highestFactor; !numberFound ; i += highestFactor)
     {
         for(int j = 1; (j < (highestFactor + 1)) && !cantBeTheNumber; j++)
         {
