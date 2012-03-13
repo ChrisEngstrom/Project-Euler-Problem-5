@@ -11,9 +11,6 @@
 
 using namespace std;
 
-// FUNCTION PROTOTYPES //
-bool checkPalindrome(int num);      // Checks a number to see if it is a palindrome
-
 int main() {
 
     clock_t timeStart,
@@ -54,16 +51,4 @@ int main() {
 
 
     return 0;
-}
-
-//*******************************************************************************
-// FUNCTION: bool checkPalindrome(int num)                                      *
-//  int num - Number that will be checked to see if it is a palindrome          *
-//                                                                              *
-// RETURNS - Whether or not the number passed in is a palindrome                *
-//*******************************************************************************
-bool checkPalindrome(int num)
-{
-    
-    return true;
 }
